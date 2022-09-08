@@ -15,51 +15,51 @@ module.exports = (sequelize, DataTypes) => {
                 allowNull: false,
             },
             Jan: {
-                type: DataTypes.TEXT,
+                type: DataTypes.STRING(1000),
                 allowNull: false,
             },
             Feb: {
-                type: DataTypes.TEXT,
+                type: DataTypes.STRING(1000),
                 allowNull: false,
             },
             Mar: {
-                type: DataTypes.TEXT,
+                type: DataTypes.STRING(1000),
                 allowNull: false,
             },
             Apr: {
-                type: DataTypes.TEXT,
+                type: DataTypes.STRING(1000),
                 allowNull: false,
             },
             May: {
-                type: DataTypes.TEXT,
+                type: DataTypes.STRING(1000),
                 allowNull: false,
             },
             Jun: {
-                type: DataTypes.TEXT,
+                type: DataTypes.STRING(1000),
                 allowNull: false,
             },
             Jul: {
-                type: DataTypes.TEXT,
+                type: DataTypes.STRING(1000),
                 allowNull: false,
             },
             Aug: {
-                type: DataTypes.TEXT,
+                type: DataTypes.STRING(1000),
                 allowNull: false,
             },
             Sep: {
-                type: DataTypes.TEXT,
+                type: DataTypes.STRING(1000),
                 allowNull: false,
             },
             Oct: {
-                type: DataTypes.TEXT,
+                type: DataTypes.STRING(1000),
                 allowNull: false,
             },
             Nov: {
-                type: DataTypes.TEXT,
+                type: DataTypes.STRING(1000),
                 allowNull: false,
             },
             Dec: {
-                type: DataTypes.TEXT,
+                type: DataTypes.STRING(1000),
                 allowNull: false,
             },
         },
